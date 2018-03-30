@@ -1,4 +1,4 @@
-public class OverlappinRectangle {
+public class OverlappingRectangle {
 
     public int overlap(int r1bx, int r1by, int r1tx, int r1ty, int r2bx, int r2by, int r2tx, int r2ty) {
         int yDist = distanceWidth(r1bx, r2bx, r1tx, r2tx);
